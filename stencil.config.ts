@@ -9,6 +9,7 @@ export const config: Config = {
     copy: [
       { src: `${__dirname}/now.json`,
         dest: 'now.json' },
+      { src: 'api' },
     ]
   }],
   globalScript: 'src/global/app.ts',
